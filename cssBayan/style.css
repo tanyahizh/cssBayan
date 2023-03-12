@@ -72,3 +72,25 @@ body {
 .meme input{
     display: none;
 }
+
+/*For mobile*/
+
+@media screen and (max-width: 320px) {
+    .str {
+        
+        font-size: medium;
+        font-weight: bold;
+        margin: 0.78% 10%  0.34%;
+    }
+
+    .meme{
+        width: 80%;
+    }
+    
+    .meme label {
+        
+        font-size: small;    
+        background: transparent url(33.png) no-repeat 100% 50%;   
+    }
+        
+}
