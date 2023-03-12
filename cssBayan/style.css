@@ -117,3 +117,21 @@ body {
     }
 
 }
+
+/*For desktop*/
+
+@media screen and (min-width: 820px) and (max-width: 1920px){
+    .str {
+        
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .meme label {
+        
+        font-size: 90%;
+        
+    }
+    
+    
+}
